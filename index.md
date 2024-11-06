@@ -40,7 +40,7 @@ eventbrite:     "https://www.eventbrite.com/e/online-instructor-training-novembe
 -->
 {% if page.eventbrite %}
 <iframe
-  src="https://www.eventbrite.com/tickets-external?eid={{page.eventbrite}}&ref=etckt"
+  src="https://www.eventbrite.com/e/online-instructor-training-november-19-22-2024-tickets-1007649325257"
   frameborder="0"
   width="100%"
   height="248px"
