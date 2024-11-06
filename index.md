@@ -16,7 +16,7 @@ instructor: ["Liz Stokes, Sara King"] # boxed, comma-separated list of trainers'
 
 contact: ["liz.stokes@ardc.edu.au"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 etherpad:             # optional: URL for the workshop Etherpad if there is one
-eventbrite:     "https://www.eventbrite.com/e/online-instructor-training-november-19-22-2024-tickets-1007649325257"      # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite:     "1007649325257"      # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 <!-- See instructions in the comments below for how to edit specific sections of this workshop template. -->
