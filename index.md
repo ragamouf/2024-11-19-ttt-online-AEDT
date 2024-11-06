@@ -2,21 +2,21 @@
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.
 curriculum: "Instructor Training" # DON'T CHANGE THIS EITHER. (THANK YOU.)
-venue: "FIXME"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
-country: "FIXME"      # "W3" for centrally organized online trainings or lowercase two-letter ISO country code such as "fr" of the host institution if applicable (see https://en.wikipedia.org/wiki/ISO_3166-1)
-language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latitude: "45"        # decimal latitude of training venue (use https://www.latlong.net/)
-longitude: "-1"       # decimal longitude of the training venue (use https://www.latlong.net)
-humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["FIXME"] # boxed, comma-separated list of trainers' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: ["fixme@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+venue: "Australian Research Data Commons"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
+address: "online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+country: "AU"      # "W3" for centrally organized online trainings or lowercase two-letter ISO country code such as "fr" of the host institution if applicable (see https://en.wikipedia.org/wiki/ISO_3166-1)
+language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
+latitude: "-33"        # decimal latitude of training venue (use https://www.latlong.net/)
+longitude: "151"       # decimal longitude of the training venue (use https://www.latlong.net)
+humandate: "Nov 19-22"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "12pm-4pm AEDT"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2024-11-19      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2024-11-22        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Liz Stokes, Sara King"] # boxed, comma-separated list of trainers' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+
+contact: ["liz.stokes@ardc.edu.au"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 etherpad:             # optional: URL for the workshop Etherpad if there is one
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite:     "https://www.eventbrite.com/e/online-instructor-training-november-19-22-2024-tickets-1007649325257"      # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
 <!-- See instructions in the comments below for how to edit specific sections of this workshop template. -->
@@ -265,112 +265,68 @@ NOTE: This space can be customized to reflect the unique schedule of your traini
 adjust the times and titles, then delete the characters above and below that serve to comment it out.
 -->
 
-<!--
-TWO DAY SCHEDULE
---->
-<!--
-<div class="row">
-  <div class="col-md-6">
-    <h3>Day 1</h3>
-    <table class="table table-striped">
-      <tr> <td>09:00</td> <td>Welcome </td> </tr>
-      <tr> <td>09:30</td> <td>Building Skill with Practice </td> </tr>
-      <tr> <td>10:30</td> <td>Morning Break </td> </tr>
-      <tr> <td>10:45</td> <td>Expertise and Instruction </td> </tr>
-      <tr> <td>11:30</td> <td>Memory and Cognitive Load </td> </tr>
-      <tr> <td>12:15</td> <td>Building Skill with Feedback </td> </tr>
-      <tr> <td>12:35</td> <td>Lunch </td> </tr>
-      <tr> <td>13:35</td> <td>Motivation and Demotivation </td> </tr>
-      <tr> <td>14:35</td> <td>Equity, Inclusion, and Accessibility </td> </tr>
-      <tr> <td>15:15</td> <td>Afternoon Break </td> </tr>
-      <tr> <td>15:30</td> <td>Teaching Is a Skill </td> </tr>
-      <tr> <td>16:30</td> <td>Wrap-up and Homework </td> </tr>
-      <tr> <td>16:50</td> <td>Finish </td> </tr>
-    </table>
-  </div>
-  <div class="col-md-6">
-    <h3>Day 2</h3>
-    <table class="table table-striped">
-      <tr> <td>09:00</td> <td>Welcome Back </td> </tr>
-      <tr> <td>09:10</td> <td>Getting Started on Instructor Certification </td> </tr>
-      <tr> <td>09:40</td> <td>The Carpentries: How We Operate </td> </tr>
-      <tr> <td>10:25</td> <td>Morning Break </td> </tr>
-      <tr> <td>10:40</td> <td>Live Coding Is a Skill </td> </tr>
-      <tr> <td>11:45</td> <td>Preparing to Teach </td> </tr>
-      <tr> <td>12:30</td> <td>Lunch </td> </tr>
-      <tr> <td>13:30</td> <td>More Practice Live Coding </td> </tr>
-      <tr> <td>14:15</td> <td>Working with Your Team</td> </tr>
-      <tr> <td>15:25</td> <td>Afternoon Break </td> </tr>
-      <tr> <td>15:40</td> <td>Launches and Landings </td> </tr>
-      <tr> <td>16:20</td> <td>Putting it Together </td> </tr>
-      <tr> <td>16:40</td> <td>Wraping Up </td> </tr>
-      <tr> <td>16:50</td> <td>Post-Training Survey </td> </tr>
-      <tr> <td>17:05</td> <td>Finish </td> </tr>
-    </table>
-  </div>
-</div>
-
--->
 
 
 <!--
 FOUR DAY SCHEDULE
 --->
-<!--
+
 <div class="row">
   <div class="col-md-6">
-    <h3>Day 1</h3>
+    <h3>Day 1 Tuesday</h3>
     <table class="table table-striped">
+      <tr> <td>AWST</td> <td> </td> </tr>
       <tr> <td>09:00</td> <td>Welcome </td> </tr>
       <tr> <td>09:30</td> <td>Building Skill with Practice </td> </tr>
       <tr> <td>10:30</td> <td>Break </td> </tr>
-      <tr> <td>10:45</td> <td>Expertise and Instruction </td> </tr>
-      <tr> <td>11:30</td> <td>Memory and Cognitive Load </td> </tr>
-      <tr> <td>12:15</td> <td>Building Skill with Feedback </td> </tr>
-      <tr> <td>12:35</td> <td>Finish day 1 </td> </tr>
+      <tr> <td>11:00</td> <td>Expertise and Instruction </td> </tr>
+      <tr> <td>11:45</td> <td>Memory and Cognitive Load </td> </tr>
+      <tr> <td>12:35</td> <td>Building Skill with Feedback </td> </tr>
+      <tr> <td>13:00</td> <td>Finish day 1 </td> </tr>
     </table>
   </div>
   <div class="col-md-6">
-    <h3>Day 2</h3>
+    <h3>Day 2 Wednesday</h3>
     <table class="table table-striped">
-      <tr> <td>13:35</td> <td>Motivation and Demotivation </td> </tr>
-      <tr> <td>14:35</td> <td>Equity, Inclusion, and Accessibility </td> </tr>
-      <tr> <td>15:15</td> <td>Break </td> </tr>
-      <tr> <td>15:30</td> <td>Teaching Is a Skill </td> </tr>
-      <tr> <td>16:30</td> <td>Wrap-up and Homework </td> </tr>
-      <tr> <td>16:50</td> <td>Finish day 2</td> </tr>
+            <tr> <td>09:00</td> <td>Welcome back!</td> </tr>
+      <tr> <td>09:15</td> <td>Motivation and Demotivation </td> </tr>
+      <tr> <td>10:20</td> <td>Equity, Inclusion, and Accessibility </td> </tr>
+      <tr> <td>11:00</td> <td>Break </td> </tr>
+      <tr> <td>11:40</td> <td>Teaching Is a Skill </td> </tr>
+      <tr> <td>12:40</td> <td>Wrap-up and Homework </td> </tr>
+      <tr> <td>13:00</td> <td>Finish day 2</td> </tr>
     </table>
   </div>
 </div>
 <div class="row">  
   <div class="col-md-6">
-    <h3>Day 3</h3>
+    <h3>Day 3 Thursday</h3>
     <table class="table table-striped">
       <tr> <td>09:00</td> <td>Welcome Back </td> </tr>
-      <tr> <td>09:10</td> <td>Getting Started on Instructor Certification </td> </tr>
-      <tr> <td>09:40</td> <td>The Carpentries: How We Operate </td> </tr>
-      <tr> <td>10:25</td> <td>Break </td> </tr>
-      <tr> <td>10:40</td> <td>Live Coding Is a Skill </td> </tr>
-      <tr> <td>11:45</td> <td>Preparing to Teach </td> </tr>
-      <tr> <td>12:30</td> <td>Finish day 3 </td> </tr>
+      <tr> <td>09:15</td> <td>Getting Started on Instructor Certification </td> </tr>
+      <tr> <td>09:45</td> <td>The Carpentries: How We Operate </td> </tr>
+      <tr> <td>10:30</td> <td>Break </td> </tr>
+      <tr> <td>11:00</td> <td>Live Coding Is a Skill </td> </tr>
+      <tr> <td>12:10</td> <td>Preparing to Teach </td> </tr>
+      <tr> <td>13:00</td> <td>Finish day 3 </td> </tr>
     </table>
   </div>
   <div class="col-md-6">
-    <h3>Day 4</h3>
+    <h3>Day 4 Friday</h3>
     <table class="table table-striped">
-      <tr> <td>13:30</td> <td>More Practice Live Coding </td> </tr>
-      <tr> <td>14:15</td> <td>Working with Your Team</td> </tr>
-      <tr> <td>15:25</td> <td>Break </td> </tr>
-      <tr> <td>15:40</td> <td>Launches and Landings </td> </tr>
-      <tr> <td>16:20</td> <td>Putting it Together </td> </tr>
-      <tr> <td>16:40</td> <td>Wraping Up </td> </tr>
-      <tr> <td>16:50</td> <td>Post-Training Survey </td> </tr>
-      <tr> <td>17:05</td> <td>Finish </td> </tr>
+            <tr> <td>09:00</td> <td>Welcome Back </td> </tr>
+      <tr> <td>09:15</td> <td>More Practice Live Coding </td> </tr>
+      <tr> <td>10:00</td> <td>Working with Your Team</td> </tr>
+      <tr> <td>11:00</td> <td>Break </td> </tr>
+      <tr> <td>11:30</td> <td>Launches and Landings </td> </tr>
+      <tr> <td>12:10</td> <td>Putting it Together </td> </tr>
+      <tr> <td>12:30</td> <td>Wrapping Up & post-training survey</td> </tr>
+      <tr> <td>13:00</td> <td>Finish </td> </tr>
     </table>
   </div>
 </div>
 
--->
+
 
 
 <!--
