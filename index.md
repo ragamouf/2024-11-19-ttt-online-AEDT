@@ -2,7 +2,7 @@
 layout: workshop      # DON'T CHANGE THIS.
 root: .               # DON'T CHANGE THIS EITHER.
 curriculum: "Instructor Training" # DON'T CHANGE THIS EITHER. (THANK YOU.)
-venue: "Australian Research Data Commons"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
+venue: "The Carpentries"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
 address: "online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "AU"      # "W3" for centrally organized online trainings or lowercase two-letter ISO country code such as "fr" of the host institution if applicable (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
@@ -12,7 +12,7 @@ humandate: "Nov 19-22"    # human-readable dates for the workshop (e.g., "Feb 17
 humantime: "9am-1pm AWST"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2024-11-19      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2024-11-22        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Liz Stokes, Sara King"] # boxed, comma-separated list of trainers' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Sara King", "Liz Stokes"] # boxed, comma-separated list of trainers' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 
 contact: ["liz.stokes@ardc.edu.au"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 etherpad:             # optional: URL for the workshop Etherpad if there is one
